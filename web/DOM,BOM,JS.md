@@ -7,28 +7,27 @@
 
 ## 1. Window
 
-> - 자바스크립트의 최상위 객체 / 전역 객체 / 모든 객체가 소속된 객체
-
+- 자바스크립트의 최상위 객체 / 전역 객체 / 모든 객체가 소속된 객체
 - **브라우저를 대변하고 이를 제어할 수 있는 메서드를 제공**한다.
 
 ![](https://velog.velcdn.com/images/soopy368/post/b49c3b17-b668-4f97-aa65-0ed25d55bf14/image.png)
 
 개발자 모드 console 창에서 this를 출력하면 window 객체가 출력되는 것으로 window가 최상위 객체임을 확인할 수 있다.
-
 흥미로운 점은 this=window이기 때문에 window.clearInterval에서 window를 생략해도 동일하게 동작한다!
 
-window가 JS의 최상위 객체인 것을 확인했으니,
-지금부터 window의 하위 객체인 DOM, BOM, JS에 대해서 알아보자.
+window가 JS의 최상위 객체인 것을 확인했으니, 지금부터 window의 하위 객체인 DOM, BOM, JS에 대해서 알아보자.
 
-## DOM(Document Object Model)
+<br>
+
+## 2. DOM(Document Object Model)
 
 ![](https://velog.velcdn.com/images/soopy368/post/77f12ba8-8d42-47e0-9972-f330224ce96c/image.png)
 
-> - 문서 객체 모델(DOM): 객제 지향 모델로써 구조화된 문서를 표현하는 방식이다.
-
+- 문서 객체 모델(DOM): 객제 지향 모델로써 구조화된 문서를 표현하는 방식이다.
 - **웹 문서를 브라우저가 이해할 수 있는 구조로 구성한 것**
+- **브라우저는 HTML의 tag들을 이해할 수 없기 때문에** 브라우저가 이해할 수 있는 방식인 **DOM tree 형태로 변경한다.**
 
-**브라우저는 HTML의 tag들을 이해할 수 없기 때문에** 브라우저가 이해할 수 있는 방식인 **DOM tree 형태로 변경한다.**
+<br>
 
 ---
 
@@ -40,11 +39,13 @@ window가 JS의 최상위 객체인 것을 확인했으니,
 
 HTML의 Tag는 브라우저가 이해할 수 있는 형태인 JS Node로 변환하기 때문에 부모가 Node이다.
 
-## BOM(Browser Object Model)
+<br>
+
+## 3. BOM(Browser Object Model)
 
 ![](https://velog.velcdn.com/images/soopy368/post/4929d568-a523-4e60-8471-727012e483b1/image.jpeg)
 
-> - 브라우저 객체 모델(BOM): JS가 브라우저와 소통하기 위해 만들어진 모델
+- 브라우저 객체 모델(BOM): JS가 브라우저와 소통하기 위해 만들어진 모델
 
 - JS를 이용하면 브라우저의 정보에 접근하거나, 브라우저의 여러 기능들을 제어할 수 있다. 이 때 사용하는 객체 모델이 BOM이다.
 
@@ -83,9 +84,11 @@ HTML의 Tag는 브라우저가 이해할 수 있는 형태인 JS Node로 변환�
 > DOM은 BOM의 일부이지만 매우 중요하기 때문에 따로 나누어서 본다.
 > DOM은 부모 요소가 Document인 트리 구조로 이루어져있고 BOM과 달리 DOM은 W3C의 표준 객체 모델이다.
 
+<br>
+
 ## JavaScript
 
-> DOM, BOM 요소를 조작할 수 있다.
+- DOM, BOM 요소를 조작할 수 있다.
 
 ### DOM 조작
 
