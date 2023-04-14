@@ -96,13 +96,13 @@ console.log(3);
 ```javascript
 1. 코드 한 줄씩 call stack에 적재
 2. call stack에 있는 코드들 순차적으로 실행
-3. Stack에 있는 `console.log(1)` 실행
+3. Stack에 있는 console.log(1) 실행
 3. 나중에 처리해야하는 setTimeout(function(){console.log(2)},0); 코드는 대기실로 보낸다.
 4. 0초 뒤에 console.log(2)를 Queue로 적재
-5. Stack에 있는 `console.log(3)` 실행
+5. Stack에 있는 console.log(3) 실행
 (Queue에 있는 내용은 Stack이 비워진 후에 실행되므로)
 6. Queue에 있는 console.log(2)를 스택에 적재
-7. Stack에 있는 `console.log(2)` 실행
+7. Stack에 있는 console.log(2) 실행
 ```
 
 > setTimeout으로 둘러싸인 코드는 대기실로 보내지고, 큐를 거쳐서 스택으로 이동되기 때문에 console.log(3)보다 늦게 실행된다.
@@ -122,7 +122,7 @@ console.log(3);
 
 ### 2. 이벤트 리스너를 너무 많이 등록하지 말자.
 
-이벤트 리스너에 등록된 코드들은 모두 큐에 적재된다. 큐에 있는 코드가 많아진다면 Stack으로 이동하는 과정도 한번 더 거쳐야하고 결국 Stack에도 많은 코드가 적재되기 때문에 과부화가 올 수 있다.
+이벤트 리스너에 등록된 코드들은 모두 큐에 적재된다. 큐에 있는 코드가 많아진다면 Stack으로 이동하는 과정도 한번 더 거쳐야하고 결국 Stack에도 많은 코드가 적재되기 때문에 과부하가 올 수 있다.
 
 ## 글을 마치며
 
