@@ -14,3 +14,4 @@
 ### ✍ JavaScript
 
 - [브라우저에서의 JavaScript 동작 원리](./javascript/javascript-works-in-browser.md)
+- [비동기 처리와 Event Loop](./javascript/asynchronous,event-loop.md)
