@@ -32,23 +32,23 @@
 
 **let:** `선언과 초기화 단계가 분리`되어 있어서 그 사이에 일시적으로 변수를 참조할 수 없는 구간인 `TDZ`가 존재하게 된다.
 
-```
+```javascript
 // 선언 단계
-console.log(value) // TDZ
+console.log(value); // TDZ
 
 // 초기화 및 할당 단계
-let value = 'Hello World'
+let value = "Hello World";
 
 // ReferenceError: Cannot access 'name' before initialization
 ```
 
 **const:** `선언과 초기화가 동시`에 실행된다. 하지만 그 전에 TDZ가 생성되어 `TDZ`에 접근할 경우 Reference Error가 발생한다.
 
-```
-console.log(value) // TDZ)
+```javascript
+console.log(value); // TDZ)
 
 // 선언, 초기화, 할당 단계
-let value = 'Hello World'
+let value = "Hello World";
 
 // ReferenceError: Cannot access 'name' before initialization
 ```
@@ -59,11 +59,11 @@ let value = 'Hello World'
 
 **var:** 선언과 초기화 단계가 동시에 진행된다. 선언과 동시에 undefined로 초기화 되기 때문에 TDZ가 존재하지 않는다.
 
-```
-console.log(value) // 선언 및 초기화 단계
+```javascript
+console.log(value); // 선언 및 초기화 단계
 
 // 할당 단계
-var value = 'Hello World'
+var value = "Hello World";
 
 // undefined
 ```
