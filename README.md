@@ -16,3 +16,4 @@
 - [브라우저에서의 JavaScript 동작 원리](./javascript/javascript-works-in-browser.md)
 - [비동기 처리와 Event Loop](./javascript/asynchronous,event-loop.md)
 - [호이스팅이란? (Hoisting)](./javascript/hoisting.md)
+- [스코프(Scope)와 변수 할당 (var, let, const의 차이)](./javascript/scope.md)
