@@ -1,4 +1,4 @@
-![](https://velog.velcdn.com/images/soopy368/post/095507ff-3302-4689-8d3a-b076a294a0bd/image.png)
+<img width="400px" src="https://velog.velcdn.com/images/soopy368/post/095507ff-3302-4689-8d3a-b076a294a0bd/image.png" />
 
 ## 스코프
 
@@ -103,7 +103,7 @@ window.myFn();
 
 ```
 
-> 전역 변수는 최소화하자.
+### 전역 변수는 최소화하자.
 
 가장 바깥 스코프에 정의한 변수는 전역 변수이다. 즉 어디서든 접근이 가능하다.
 
@@ -117,7 +117,7 @@ window.myFn();
 
 <br>
 
-> 선언 없는 변수 할당 금지
+### 선언 없는 변수 할당 금지
 
 선언 없이 변수를 할당하면 해당 변수는 `var로 선언한 전역 변수처럼` 취급된다.
 
