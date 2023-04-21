@@ -14,6 +14,8 @@ Web Storage는 기존 웹 환경의 쿠키(Cookie)와 매우 유사한 개념이
 - 사용자가 따로 요청하지 않아도 브라우저가 `Request`시에 `Request header`를 넣어서 `자동으로 서버에 매번 전송`을 한다.
   - 매 HTTP 요청마다 서버로 전송되기 때문에 서버에 부담이 크다.
 
+<br>
+
 ## 쿠키의 동작 방식
 
 <div align="center"><img width="80%" src="https://velog.velcdn.com/images/soopy368/post/5a0a8542-303e-404d-ab9e-2209dc9223aa/image.png" /></div>
@@ -25,6 +27,8 @@ Web Storage는 기존 웹 환경의 쿠키(Cookie)와 매우 유사한 개념이
 4. 브라우저가 종료되더라도 쿠키 만료 시간이 있다면 클라이언트에서 보관하고 있음
 5. 같은 요청을 할 경우 HTTP 헤더에 쿠키를 함께 보냄
 6. 서버에서 쿠키를 읽어서 이전 상태를 변경할 필요가 있을 때, 업데이트한 쿠키를 HTTP 헤더에 포함시켜 응답
+
+<br>
 
 ## Web Storage
 
