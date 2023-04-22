@@ -24,6 +24,7 @@
 
 - [CSR vs SSR (feat. SPA, MPA)](./react/csr-ssr.md)
 
-### CSS
+### ✨ CSS
 
 - [margin, padding의 차이와 사용법](./css/margin-padding.md)
+- [position 속성의 특징](./css/position.md)
