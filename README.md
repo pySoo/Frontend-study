@@ -11,6 +11,7 @@
 - [브라우저 렌더링 최적화 (Reflow, Repaint)](./web/Reflow,Repaint.md)
 - [모듈 번들러란 무엇인가? (Webpack, babel)](./web/Webpack,babel.md)
 - [Web Storage와 Cookie](./web/WebStorage-Cookie.md)
+- [GET과 POST의 차이](./web/get-post.md)
 
 ### ✍ JavaScript
 
