@@ -20,6 +20,7 @@
 - [호이스팅이란? (Hoisting)](./javascript/hoisting.md)
 - [스코프(Scope)와 변수 할당 (var, let, const의 차이)](./javascript/scope.md)
 - [클로저란? (Closure)](./javascript/closure.md)
+- [이벤트 위임(with. Bubbling, Capturing)](./javascript/bubbling-capturing.md)
 
 ### 🌐 React
 
