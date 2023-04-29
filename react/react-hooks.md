@@ -79,7 +79,7 @@ useLayoutEffect(() => {
 
 - useLayoutEffect는 useEffect와 비교해서 이해하면 편리하다.
 - useEffect는 컴포넌트들이 render되고, paint 후에 즉, `Mount(마운트)`될 때 `비동기적으로 실행`된다. paint된 후에 실행되기 때문에 useEffect에서 DOM에 영향을 주는 코드가 있으면 사용자 입장에서는 `깜빡이는 현상`을 경험한다.
-- 그에 반해, useLayoutEffect는 컴포넌트들이 render된 후에 실행되고 그 후에 paint한다. 또한 이런 과정이 `동기적`으로 실행된다. 따라서 paint 되기전에 실행되기 때문에 dom 을 조작하는 코드가 존재하더라도 사용자는 깜빡임을 경험하지 않습니다.
+- 그에 반해, useLayoutEffect는 컴포넌트들이 render된 후에 실행되고 그 후에 paint한다. 또한 이런 과정이 `동기적`으로 실행된다. 따라서 paint 되기전에 실행되기 때문에 dom 을 조작하는 코드가 존재하더라도 사용자는 깜빡임을 경험하지 않는다.
 
 - 이렇게만보면 useLayoutEffect가 useEffect보다 더 좋게 느껴질 수 있겠지만, 반대로 useLayoutEffect의 내부 로직이 복잡하면 사용자 입장에서는 화면을 보는데까지 시간이 오래걸린다는 단점이 있다.
 - 결론은, 기본적으로는 useEffect를 사용하는 것을 권장하고, 화면이 깜빡이는 상황일 때 이를 방지하기위해서는 useLayoutEffect를 사용하면 좋을 것 같다.
