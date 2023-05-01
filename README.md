@@ -21,6 +21,7 @@
 - [스코프(Scope)와 변수 할당 (var, let, const의 차이)](./javascript/scope.md)
 - [클로저란? (Closure)](./javascript/closure.md)
 - [이벤트 위임(with. Bubbling, Capturing)](./javascript/bubbling-capturing.md)
+- [비동기 처리 키워드 (async, await)](./javascript/async-await.md)
 
 ### 🌐 React
 
