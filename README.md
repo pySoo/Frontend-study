@@ -22,6 +22,7 @@
 - [클로저란? (Closure)](./javascript/closure.md)
 - [이벤트 위임(with. Bubbling, Capturing)](./javascript/bubbling-capturing.md)
 - [비동기 처리 키워드 (async, await)](./javascript/async-await.md)
+- [함수: Call by value, Call by reference](./javascript/function-call-by.md)
 - [실행 컨텍스트 (Execution Context)](./javascript/execution-context.md)
 
 ### 🌐 React
