@@ -26,6 +26,7 @@
 - [실행 컨텍스트 (Execution Context)](./javascript/execution-context.md)
 - [this의 정의와 용법](./javascript/this.md)
 - [이터레이터와 제너레이터](./javascript/iterator-generator.md)
+- [프로토타입이란? (feat. 상속)](./javascript/prototype.md)
 
 ### 🌐 React
 
