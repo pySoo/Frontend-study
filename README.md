@@ -12,6 +12,7 @@
 - [모듈 번들러란 무엇인가? (Webpack, babel)](./web/Webpack,babel.md)
 - [Web Storage와 Cookie](./web/WebStorage-Cookie.md)
 - [GET과 POST의 차이](./web/get-post.md)
+- [REST API란?](./web/REST-API.md)
 
 ### ✍ JavaScript
 
