@@ -40,3 +40,7 @@
 
 - [margin, padding의 차이와 사용법](./css/margin-padding.md)
 - [position 속성의 특징](./css/position.md)
+
+### 💻 CS
+
+- [CS50 강의 내용 정리](./cs/cs50.md)
