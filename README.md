@@ -37,7 +37,7 @@
 - [React Hooks 정복하기](./react/react-hooks.md)
 - [가상 돔 (Virtual DOM) 이해하기](./react/virtual-dom.md)
 - [재조정 (Reconciliation)이란 무엇인가?](./react/reconciliation.md)
-- [Next.js의 동작 원리와 CSR/SSR](./react/next-js.md.md)
+- [Next.js의 동작 원리와 CSR/SSR](./react/next-js.md)
 
 ### ✨ CSS
 
