@@ -39,6 +39,11 @@
 - [재조정 (Reconciliation)이란 무엇인가?](./react/reconciliation.md)
 - [Next.js의 동작 원리와 CSR/SSR](./react/next-js.md)
 
+### 🔍 Next.js
+
+- [Next.js의 동작 원리와 CSR/SSR](./nextjs/next-js.md)
+- [Next.js 시작하기](./nextjs/installation.md)
+
 ### ✨ CSS
 
 - [margin, padding의 차이와 사용법](./css/margin-padding.md)
