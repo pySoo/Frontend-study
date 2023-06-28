@@ -43,6 +43,7 @@
 
 - [Next.js의 동작 원리와 CSR/SSR](./nextjs/next-js.md)
 - [Next.js의 SSR, SSG, ISR 이해하기](./nextjs/ssr-ssg-isr.md)
+- [Next.js의 Route 이해하기](./nextjs/route.md)
 - [Next.js 시작하기](./nextjs/installation.md)
 
 ### ✨ CSS
